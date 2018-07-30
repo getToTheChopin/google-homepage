@@ -1,7 +1,9 @@
+
+
 html, body {
     font-family:Arial;
     font-size:15px;
-    max-width: 99%;
+    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -33,20 +35,28 @@ button {
     border:none;
 }
 
+
+
 .header-bar {
     position:absolute;
     top: 0;
     width:100%;
 }
 
+
 .header-bar li {
     display:inline;
     padding: 10px;
 }
 
+
+
 .header-bar ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
+
 
 .header-links-left {
     float:left;
@@ -55,6 +65,7 @@ button {
 .header-links-right {
     float:right
 }
+
 
 #sign-in-button {
     background-color:rgba(24, 71, 199, 0.788);
@@ -101,6 +112,8 @@ img {
 
 .footer-bar ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .footer-bar li {
